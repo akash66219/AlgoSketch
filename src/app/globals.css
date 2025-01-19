@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.one {
+  background-color: grey;
+}
+
+.currentCell {
+  background-color: blue;
+}
+
+.notPrime {
+  background-color: orange;
+}
+
+.prime {
+  background-color: rgb(21, 170, 189);
+}
+
+.multiple {
+  background-color: rgb(21, 133, 114);
+}
+
+
+html {
+  cursor: none;
+  user-select: none;
+}
+ 
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0a0c0f;
+  background-image: url("/bg.png");
+  overflow: auto;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.main-header {
+  border-radius: 0px;
+  background: linear-gradient(315deg, #070707, #090909);
+  box-shadow: -6px -6px 12px #040404, 6px 6px 12px #0c0c0c;
+}
+
+button {
+  cursor: none;
+}
+
+.default-line-color {
+  /* background: #10abbc; */
+  background: #0e7490;
+}
+
+.change-line-color {
+  /* background: rgb(233, 12, 12); */
+  background: rgb(209, 255, 5);
+}
+
