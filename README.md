@@ -53,7 +53,7 @@ git clone https://github.com/Poseidon0070/AlgoSketch
   
 ### Using Docker
 ```sh
-git clone https://github.com/Poseidon0070/AlgoSketch
+git clone https://github.com/akash66219/AlgoSketch
 ```
 
 ## Navigate to the project directory
